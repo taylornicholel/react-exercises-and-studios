@@ -1,0 +1,15 @@
+
+
+
+.recipeAuthorBlock {
+    display: flex;
+    justify-content: space-evenly;
+    }
+    
+.imageUpdates {
+    object-fit: contain;
+}
+
+/* COMMENT (export to other file)*/ 
+/* Does the imageUpdates need to be indented back to the left? */ 
+
