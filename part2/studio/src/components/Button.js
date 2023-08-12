@@ -1,5 +1,9 @@
+import ClickedButton from "./ClickedButton";
+import SaveButton from "./SaveButton";
+import "./styling.css";
+
 function Button() {
-   return;
+   return props.SaveButton ? <SaveButton /> : <ClickedButton />;
  }
  
  export default Button;
